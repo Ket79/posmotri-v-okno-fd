@@ -57,7 +57,7 @@ ol {
   display: grid;
   grid-template-columns: 711px  399px;
   column-gap: 30px;
-  grid-template-rows: 534px;
+  align-items: end;
 }
 
 .search-form {
@@ -112,8 +112,7 @@ ol {
 }
 
 .content__list-item {
-  padding: 3px;  
-  overflow: hidden;  
+  padding: 3px;   
 }
 
 .content__video-card {
@@ -165,12 +164,12 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald", "sans serif";
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   text-overflow: ellipsis;
-  white-space: normal;
+  white-space: nowrap;
   line-height: normal;
   font-weight: bold;
   overflow: hidden;
@@ -218,7 +217,7 @@ ol {
   cursor: text; 
   background-color: transparent; 
   border: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   min-inline-size: 225px;
@@ -340,5 +339,3 @@ ol {
 .content__card-link:hover {
 text-decoration: underline;
 }
-
-
