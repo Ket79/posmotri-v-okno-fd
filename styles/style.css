@@ -182,6 +182,10 @@ ol {
   -webkit-box-orient: vertical;
 }
 
+.content__card-link_current {
+  background: #545050;
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -323,8 +327,8 @@ ol {
   outline-offset: 2px;
 }
 
-.content__card-link_current {
-  background: #545050;
+.content__card-link:active {
+  color: #545050;
 }
 
 .content__card-link:focus {
